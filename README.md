@@ -69,7 +69,7 @@ python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 pip install pandas numpy scikit-learn scipy matplotlib seaborn
 ```
-**2 Generate the test data and run the pipeline sequentially:
+**2. Generate the test data and run the pipeline sequentially:
 ```
 python src/generate_dummy_data.py
 python src/data_pipeline.py
