@@ -61,7 +61,7 @@ A model is only as good as its stress tests. Running `src/validation.py` execute
 
 *Note: The original Wharton 2026 dataset is proprietary and excluded from this repository. We have provided a dummy data generator so you can test the pipeline locally.*
 
-**1. Clone the repository and setup the environment:**
+1. Clone the repository and setup the environment:**
 ```bash
 git clone [https://github.com/YourUsername/whl-hockey-analytics.git](https://github.com/YourUsername/whl-hockey-analytics.git)
 cd whl-hockey-analytics
@@ -69,7 +69,7 @@ python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 pip install pandas numpy scikit-learn scipy matplotlib seaborn
 ```
-**2. Generate the test data and run the pipeline sequentially:
+2. Generate the test data and run the pipeline sequentially:
 ```
 python src/generate_dummy_data.py
 python src/data_pipeline.py
