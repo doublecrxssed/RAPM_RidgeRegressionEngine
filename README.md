@@ -32,9 +32,9 @@ To translate RAPM coefficients into game predictions, we do not use ML classifie
 
     whl-hockey-analytics/
     ├── data/
-    │   ├── raw/                 # Contains raw datasets (ignored via .gitignore)
-    │   ├── processed/           # Filtered 5v5 output data
-    │   └── outputs/             # Generated deliverables, CSVs, and dashboards
+    │   ├── raw/                 # Contains raw datasets (ignored via .gitignore, create your own data)
+    │   ├── processed/           # Filtered 5v5 output data (ignored via .gitignore, create your own data)
+    │   └── outputs/             # Generated deliverables, CSVs, and dashboards (ignored via .gitignore, create your own data)
     ├── src/
     │   ├── generate_dummy_data.py # Generates fake data for testing without proprietary WHL data
     │   ├── data_pipeline.py     # ETL: Filters 5v5, engineers Net xG/60 target variables
