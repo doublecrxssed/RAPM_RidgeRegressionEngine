@@ -34,9 +34,9 @@ To translate RAPM coefficients into game predictions, we do not use ML classifie
     ├── data/
     │   ├── raw/                 # Contains raw datasets (ignored via .gitignore, create your own data)
     │   ├── processed/           # Filtered 5v5 output data (ignored via .gitignore, create your own data)
-    │   └── outputs/             # Generated deliverables, CSVs, and dashboards (ignored via .gitignore, create your own data)
+    │   ├── outputs/             # Generated deliverables, CSVs, and dashboards (ignored via .gitignore, create your own data)
+    |   └── generate_dummy_data.py # Generates fake data for testing without proprietary WHL data
     ├── src/
-    │   ├── generate_dummy_data.py # Generates fake data for testing without proprietary WHL data
     │   ├── data_pipeline.py     # ETL: Filters 5v5, engineers Net xG/60 target variables
     │   ├── rapm_engine.py       # Sparse matrix construction & RidgeCV regression
     │   ├── optimizer.py         # L-BFGS-B optimization for Log-Loss minimization
