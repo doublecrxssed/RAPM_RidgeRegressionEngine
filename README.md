@@ -1,5 +1,5 @@
 # RAPM_RidgeRegressionEngine
-A production-grade econometric pipeline for hockey analytics. Isolates true player talent using Regularized Adjusted Plus-Minus (RAPM) via Ridge Regression, and simulates calibrated win probabilities using Maximum Likelihood Estimation (MLE) and Pythagorean Expectation. Built by the winners of WHSDC 25'
+A production-grade econometric pipeline for hockey analytics. Isolates true player talent using Regularized Adjusted Plus-Minus (RAPM) via Ridge Regression, and simulates calibrated win probabilities using Maximum Likelihood Estimation (MLE) and Pythagorean Expectation. Built by the semifinalists of the Wharton High School Data Science Competition 25'
 
 # Generative Structural Inference for Hockey Analytics
 **An open-source, econometric pipeline for isolating true talent and calibrating win probabilities.**
